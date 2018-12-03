@@ -1,0 +1,2 @@
+# Leetcode
+Exercise basic algorithm.
