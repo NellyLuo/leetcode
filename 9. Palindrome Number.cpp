@@ -17,3 +17,22 @@ public:
         return true;
     }
 };
+
+class Solution2 {
+public:
+    bool isPalindrome(int x) {
+        if(x < 0) return false;
+        if(x == 0) return true;
+        if(x%10 == 0) return false;
+            
+        int p = x;
+        int q = 0;
+        
+        while(q<p){
+            q = 10*q + (p % 10);
+            p = p / 10;
+        }
+        
+        return ((p == q) || (p ==q/10));
+    }
+};
