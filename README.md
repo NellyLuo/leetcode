@@ -1,2 +1,2 @@
 # LeetCode
-Exercise basic algorithm.
+Leetcode & Leetcode-cn
